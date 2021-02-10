@@ -55,10 +55,10 @@ cd /***preferred directory***/catkin_ws/src
 catkin_init_workspace  
 ```
 
-2. Clone this repo to `catkin_ws/src`
+2. Clone this repo to a different directory and copy all the files to `catkin_ws/src`
 ```
-cd /***preferred directory***/catkin_ws/src 
-git clone https://github.com/azzamshaikh/RoboticsND_Home_Service_Robot.git src  
+cd /***preferred directory***/
+git clone https://github.com/azzamshaikh/RoboticsND_Home_Service_Robot.git  
 ```
 
 4. Add the following packages to the `src` directory
