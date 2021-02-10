@@ -31,6 +31,12 @@ The purpose of this final project was to apply all the skills we had gained thro
   src/scripts/test_navigation.sh
   ```
 
+All of these packages are combined to help create the final working robot. In addition to these packages, I created two custom packages: pick_objects and add_markers. The following describes their purpose:
+- pick_objects:
+  - This package tells the robot to go to a specified pickup location in the map. The robot will go there and 'pickup' the object. This action is simulated by having the robot wait for 5 seconds. After the object is picked up, the robot then moves to the dropoff location to drop the object off. In each case, when the pickup and dropoff locations have been reached, the robot will publish a message staying that it has reached its goal. This published message will be used by the add_marker package to identify when to pickup and drop the object off.
+- add_markers:
+  - This package tells the robot when to pickup and dropoff the object. This package is subscribed to the node that the pick_objects is publishing. Therefore, once it has a confirmation that the robot has reached its destination, this package will simulate the picking up or dropping off of the object.
+
 ## Dependencies
 - Make sure your system is up to date:
 ```
