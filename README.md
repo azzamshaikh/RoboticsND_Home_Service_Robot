@@ -1,7 +1,11 @@
 # RoboticsND_Home_Service_Robot
 Develop a home service robot that utilizes localization, mapping, and navigation. The robot will go pickup and dropoff objects at your request. 
 
+![HSEstart](HSEstart.png)
 
+![HSEhalf](HSEhalf.png)
+
+![HSEend](HSEend.png)
 
 The purpose of this final project was to apply all the skills we had gained throughout the course into one project. We were challenged to developing ROS nodes in C++ to send messages between different nodes that carry out different tasks. Furthermore, these nodes were incorporated alongside the use of official ROS packages. A combination of official and user built packages helped the robot carry out tasks of localization, mapping, and navigation. A further review is listed below:
 - Localiztion: 
