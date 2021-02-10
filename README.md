@@ -25,7 +25,7 @@ The purpose of this final project was to apply all the skills we had gained thro
 ## Dependencies
 - Make sure your system is up to date:
 ```
-sudo apt-get update && upgrade
+sudo apt-get update && apt-get upgrade
 ```
 - Double check to see if pyyaml and rospkg are both installed.
 ```
