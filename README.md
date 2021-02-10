@@ -73,7 +73,7 @@ git clone https://github.com/turtlebot/turtlebot_simulator.git
 5. Build, source, and run the project
 ```
 cd /***preferred directory***/catkin_ws
-source devel/setup.bash
 catkin_make
+source devel/setup.bash
 src/scripts/home_service.sh
 ```
