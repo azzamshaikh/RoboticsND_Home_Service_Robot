@@ -55,7 +55,7 @@ cd /***preferred directory***/catkin_ws/src
 catkin_init_workspace  
 ```
 
-2. Clone this repo in a different directory and move all files/folders to `catkin_ws/src`
+2. Clone this repo to `catkin_ws/src`
 ```
 cd /***preferred directory***/catkin_ws/src 
 git clone https://github.com/azzamshaikh/RoboticsND_Home_Service_Robot.git src  
